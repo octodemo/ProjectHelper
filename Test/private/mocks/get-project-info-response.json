@@ -1,0 +1,29 @@
+{
+  "data": {
+    "organization": {
+      "projectV2": {
+        "number": 9279,
+        "url": "https://github.com/orgs/github/projects/9279",
+        "shortDescription": "rulasg issue reference for work planning",
+        "public": false,
+        "closed": false,
+        "title": "rulasg-Work&Dev",
+        "id": "PVT_kwDNJr_OADU3Yg",
+        "readme": null,
+        "fields": {
+          "totalCount": 33,
+          "nodes": [],
+          "pageInfo": {
+            "endCursor": null,
+            "hasNextPage": true
+          }
+        },
+        "owner": {
+          "__typename": "Organization",
+          "login": "github"
+        }
+      },
+      "login": "github"
+    }
+  }
+}

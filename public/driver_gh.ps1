@@ -133,4 +133,9 @@ function Get-GithubToken{
     $token = Invoke-MyCommand -Command GetToken
 
     return $token
-}
+function Invoke-GitHubGetResourceId { param([string]$Url) return (Get-Content $PSScriptRoot/graphql/getResourceId.query) }
+Export-ModuleMember -Function Invoke-GitHubGetResourceId
+function Invoke-GitHubGetProjectInfo { param([string]$Owner, [string]$ProjectNumber) return (Get-Content $PSScriptRoot/graphql/projectInfo.query) }
+Export-ModuleMember -Function Invoke-GitHubGetProjectInfo
+function Invoke-GitHubAddItemToProject { param([string]$ProjectId, [string]$ContentId) return (Get-Content $PSScriptRoot/graphql/addItemToProject.mutant) }
+Export-ModuleMember -Function Invoke-GitHubAddItemToProject

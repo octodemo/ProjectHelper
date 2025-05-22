@@ -1,0 +1,46 @@
+{
+  "data": {
+    "addProjectV2ItemById": {
+      "item": {
+        "content": {
+          "__typename": "Issue",
+          "body": "#### Incoming Streams (Daily)\n- [ ] Email\n- [ ] Slack\n- [ ] Teams\n- [ ] GitHub Notifications (Mentions / Assigned)\n- [ ] Issues inbox (Just added issues to TODO project)\n\n#### Todo Stores (Daily)\n- [ ] Email label emails\n- [ ] Issue Status (ActionRequired / Overdue / Followup / etc)\n- [ ] GitHub Notifications Saved\n- [ ] Slack Saved",
+          "title": "TODO for 2025-05-22",
+          "number": 213,
+          "url": "https://github.com/github/rulasg.notes/issues/213",
+          "id": "I_kwDOIEf6YM63uLmj",
+          "repository": {
+            "nameWithOwner": "github/rulasg.notes"
+          }
+        },
+        "id": "PVTI_lADNJr_OADU3Ys4Gqsrm",
+        "fieldValues": {
+          "nodes": [
+            {
+              "__typename": "ProjectV2ItemFieldRepositoryValue",
+              "repository": {
+                "url": "https://github.com/github/rulasg.notes"
+              },
+              "field": {
+                "__typename": "ProjectV2Field",
+                "id": "PVTF_lADNJr_OADU3Ys4CH1oY",
+                "name": "Repository",
+                "dataType": "REPOSITORY"
+              }
+            },
+            {
+              "__typename": "ProjectV2ItemFieldTextValue",
+              "text": "TODO for 2025-05-22",
+              "field": {
+                "__typename": "ProjectV2Field",
+                "id": "PVTF_lADNJr_OADU3Ys4CH1oR",
+                "name": "Title",
+                "dataType": "TITLE"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
